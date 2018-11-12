@@ -3,14 +3,14 @@ import React from 'react';
 function Menu() {
   return (
     <nav id="menu">
-      <div class="inner">
+      <div className="inner">
         <h2>Menu</h2>
-        <ul class="links">
+        <ul className="links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Generic</a></li>
           <li><a href="">Elements</a></li>
         </ul>
-        <a href="#" className="close">Close</a>
+        <a href="#banner" className="close">Close</a>
       </div>
     </nav>
   );

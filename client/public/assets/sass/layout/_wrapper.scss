@@ -55,7 +55,7 @@
 				background-color:		_palette(bg);
 
 				background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
-										url('../../images/bg.jpg');
+										url('../../assets/images/bg.jpg');
 
 				background-size:		auto,
 										cover;
@@ -169,9 +169,8 @@
 			}
 
 			.image {
-				border-radius: 100%;
 				margin: 0 _size(section-spacing, large) _size(element-margin) 0;
-				width: 22em;
+				width: 10em;
 				overflow: hidden;
 				-ms-flex: 1;
 
@@ -184,6 +183,7 @@
 			.content {
 				width: 100%;
 				-ms-flex: 2;
+				flex: 2;
 			}
 
 			&:nth-child(2n - 1) {
@@ -232,7 +232,7 @@
 			&.spotlight {
 				.image {
 					margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
-					width: 32em;
+					width: 15em;
 				}
 
 				&:nth-child(2n - 1) {
@@ -269,7 +269,7 @@
 				}
 
 				.image {
-					width: 19em;
+					width: 12em;
 					margin: 0 _size(section-spacing, small) _size(element-margin) 0;
 				}
 
@@ -290,7 +290,7 @@
 				.image {
 					margin: 0 0 (_size(element-margin) * 0.5) 0 !important;
 					max-width: 85%;
-					width: 12em;
+					width: 10em;
 				}
 			}
 		}
