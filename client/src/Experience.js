@@ -1,6 +1,7 @@
 import React from 'react';
+import ExperienceHeader from './ExperienceHeader';
 import ExperienceSkills from './ExperienceSkills';
-import portfolioData from './myPortfolioData.json';
+import {experience, about} from './myPortfolioData.json';
 
 function renderExperienceInfo(experience) {
   return(
@@ -26,25 +27,12 @@ function renderExperienceInfo(experience) {
 function Experience() {
   return (
     <section id="wrapper" className="experience">
-      <section className={`wrapper spotlight style1`}>
+      <section className={`wrapper`}>
         <div className="inner">
-          <div className="content">
-          <div className="exp-group">
-            <h3>Current Location:</h3>
-            <p>Los Angeles, CA</p>
-          </div>
-          <div className="exp-group">
-            <h3>Education:</h3>
-            <p>B.S. Electrical Engineering, UCLA</p>
-          </div>
-          <div className="exp-group">
-            <h3>Tehnical Skills:</h3>
-            <p></p>
-          </div>
-          </div>
+          <ExperienceHeader about={about} />
         </div>
       </section>
-      {renderExperienceInfo(portfolioData.experience)}
+      {renderExperienceInfo(experience)}
     </section>
   );
 }
