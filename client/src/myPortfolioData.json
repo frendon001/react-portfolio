@@ -1,0 +1,94 @@
+{
+  "experience": [
+    {
+      "id": "rgr",
+      "company": "RGR Marketing",
+      "image": "assets/images/rgr_logo.png",
+      "title": "Full Stack Developer",
+      "date": "September 2018 – Present",
+      "description": "Set up, maintain, update, and optimize (A/B Testing) hosted sites using a LAMP Stack. Design, develop, code and test client API integrations. Contribute to agile development of project timelines, implementation design specification, system flow diagrams.",
+      "skills": [
+        "PHP",
+        "Linux",
+        "Apache",
+        "MySQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Boostrap",
+        "GIT",
+        "Jira"
+      ]
+    },
+    {
+      "id": "jons",
+      "company": "Jons Marketplace",
+      "image": "assets/images/jons_logo.png",
+      "title": "Front End Developer",
+      "date": "March 2018 – September 2018",
+      "description": "In charge of the build and design of an internal loss prevention web application. Developing a Loss Prevention Tracking System using a JavaSpring based REST Service and a Reactjs with Redux.",
+      "skills": [
+        "Node.js",
+        "React.js",
+        "Redux.js",
+        "MySQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Boostrap",
+        "GIT",
+        "Java"
+      ]
+    },
+    {
+      "id": "lrw_specialist",
+      "company": "Lieberman Research Worldwide",
+      "image": "assets/images/lrw_logo.png",
+      "title": "Solutions Specialist",
+      "date": "October 2015 – September 2018",
+      "description": "Manage and lead the implementation/maintenance of customer experience survey programs and reporting interfaces for Fortune 500 Companies.",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "lrw_analyst",
+      "company": "Lieberman Research Worldwide",
+      "image": "assets/images/lrw_logo.png",
+      "title": "Solutions Analyst",
+      "date": "August 2014 – October 2015",
+      "description": "Implemented and maintained multiple custom-built survey programs and reporting interfaces for Customer Experience Management (CEM).",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "about": {
+    "aboutme": "I am a Full Stack Developer with an electrical engineering background. I have 4 years of experience designing, building and maintaining large customer experience programs for Fortune 500 companies. My strengths include teamwork, effective communication, and problem solving. I especially enjoy learning new technologies and working on personal projects. You can find some of these projects below. I am open to opportunies where I can continue to develop my skills.",
+    "location": "Los Angeles, CA",
+    "education": "B.S. Electrical Engineering, UCLA",
+    "skills": [
+      "Node.js",
+      "React.js",
+      "Redux.js",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "JavaScript",
+      "PHP",
+      "Java",
+      "HTML",
+      "CSS",
+      "Boostrap",
+      "GIT",
+      "Linux",
+      "Apache",
+      "Jira"
+    ]
+  }
+
+}
