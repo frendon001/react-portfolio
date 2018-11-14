@@ -25,3 +25,53 @@
 
   }
 }
+
+.experience {
+  .about-sidebar {
+    grid-area: about-sidebar;
+  }
+
+  .about-location {
+    grid-area: about-location;
+  }
+  
+  .about-education {
+    grid-area: about-education;
+  }
+
+  .about-skills {
+    grid-area: about-skills;
+  }
+
+  .aboutme-grid-wrapper {
+    display: grid;
+    grid-template-areas:
+    "about-sidebar"
+    "about-location"
+    "about-education"
+    "about-skills";
+  }
+
+  @include breakpoint('>=small') {
+    .aboutme-grid-wrapper {
+      grid-template-columns: 65% 35%;
+      grid-template-areas:
+      "about-sidebar about-sidebar"
+      "about-location about-education"
+      "about-skills ....";
+    }
+  }
+
+  @include breakpoint('>=large') {
+    .aboutme-grid-wrapper {
+      justify-content: space-between;
+      grid-template-columns: 45% 35%;
+      grid-template-areas:
+      "about-sidebar about-location"
+      "about-sidebar about-education"
+      "about-sidebar about-skills";
+    }
+  }
+}
+
+

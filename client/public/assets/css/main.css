@@ -2545,4 +2545,25 @@ body.is-menu-visible #menu {
     color: #fff;
     background-color: #9b9b9b; }
 
+.experience .about-sidebar {
+  grid-area: about-sidebar; }
+.experience .about-location {
+  grid-area: about-location; }
+.experience .about-education {
+  grid-area: about-education; }
+.experience .about-skills {
+  grid-area: about-skills; }
+.experience .aboutme-grid-wrapper {
+  display: grid;
+  grid-template-areas: "about-sidebar" "about-location" "about-education" "about-skills"; }
+@media screen and (min-width: 481px) {
+  .experience .aboutme-grid-wrapper {
+    grid-template-columns: 65% 35%;
+    grid-template-areas: "about-sidebar about-sidebar" "about-location about-education" "about-skills ...."; } }
+@media screen and (min-width: 981px) {
+  .experience .aboutme-grid-wrapper {
+    justify-content: space-between;
+    grid-template-columns: 45% 35%;
+    grid-template-areas: "about-sidebar about-location" "about-sidebar about-education" "about-sidebar about-skills"; } }
+
 /*# sourceMappingURL=main.css.map */
