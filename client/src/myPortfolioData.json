@@ -89,6 +89,103 @@
       "Apache",
       "Jira"
     ]
-  }
+  },
+  "projectSnapshots": [
+    {
+      "name": "Snappy",
+      "image": "snappy.png",
+      "info": "A web app that creates targeted email surveys.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Materialize",
+        "CSS",
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Redux.js",
+        "Stripe",
+        "SendGrid",
+        "OAuth 2.0 withGoogle",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Fruitdrop",
+      "image": "fruitdrop.png",
+      "info": "A site for communities to share home grown fruits and vegetables in order to prevent food waste.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Google Maps API",
+        "Firebase",
+        "JQuery",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Crypto Bracket",
+      "image": "crypto_bracket.png",
+      "info": "Crypto Bracket is a tool for crypto currency tracking.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Plottable.js",
+        "MySQL",
+        "JQuery",
+        "Node.js",
+        "Express.js",
+        "CCXT.js",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Mongo News",
+      "image": "mongo_news.png",
+      "info": "A web app that pulls data article headlines and links from Techcrunch, Hackernews (YCombinator) and Hackernoon. ",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Node.js",
+        "Express.js",
+        "Cheerio.js",
+        "Handlebars.js",
+        "MongoDB",
+        "Heroku",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Trivia Game",
+      "image": "trivia_game.png",
+      "info": "A time based trivia game that focuses on content from Pixar movies.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Hangman",
+      "image": "hangman.png",
+      "info": "Here is my spin on Hangman. I have chosen a space theme for my version.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "GitHub"
+      ]
+    }
+  ]
 
 }
