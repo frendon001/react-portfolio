@@ -4,8 +4,10 @@ function Banner() {
   return (
     <section id="banner">
       <div className="inner">
+        <div className="image">
+          <img src="/assets/images/portfolio.jpg" alt="portfolio.jpg"/>
+        </div>
         <h2>Fausto Rendon</h2>
-        <p>Another free + fully responsive site template by <a href="assets/images/hollywoodSignNew.jpg">HTML5 UP</a></p>
       </div>
     </section>
   );

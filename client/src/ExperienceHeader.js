@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperienceSkills from './ExperienceSkills';
+import Skills from './Skills';
 
 function ExperienceHeader(props) {
   return (
@@ -18,7 +18,7 @@ function ExperienceHeader(props) {
     </div>
     <div className="exp-group about-skills">
       <h3>Tehnical Skills:</h3>
-      <ExperienceSkills skills={props.about.skills} keyname="exp_header"/>
+      <Skills skills={props.about.skills} keyname="exp_header"/>
     </div>
     </div>
   );

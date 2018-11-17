@@ -1,6 +1,6 @@
 import React from 'react';
 //import ExperienceHeader from './ExperienceHeader';
-//import ExperienceSkills from './ExperienceSkills';
+import Skills from './Skills';
 import { projectSnapshots } from './myPortfolioData.json';
 
 function renderProjectSnapshots(snapshots) {
@@ -11,6 +11,7 @@ function renderProjectSnapshots(snapshots) {
           <a href="/" class="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></a>
           <h3 class="major">{snapshot.name}</h3>
           <p>{snapshot.info}</p>
+          <Skills skills={snapshot.skills} keyname={snapshot.name}/>
           <a href="/" class="special">More details</a>
         </article>
       );

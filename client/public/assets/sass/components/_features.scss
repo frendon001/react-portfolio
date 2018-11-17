@@ -46,20 +46,13 @@
 		}
 
 		@include breakpoint('<=small') {
-			article {
-				@include padding(1.5em, 1.5em);
-				margin: (_size(section-spacing, small) * 0.5) _size(section-spacing, small) (_size(section-spacing, small) * 0.5) 0;
-				width: calc(50% - #{_size(section-spacing, small) * 0.5} - 1px);
+			display: block;
 
-				.image {
-					margin-bottom: 1.5em;
-					margin-left: -1.5em;
-					margin-top: -1.5em;
-					width: calc(100% + #{3em});
-				}
+			article {
+				width: 70%;
+				margin: 2.5em auto !important;
 			}
 		}
-
 		@include breakpoint('<=xsmall') {
 			display: block;
 
