@@ -1,6 +1,6 @@
 import React from 'react';
 import ExperienceHeader from './ExperienceHeader';
-import ExperienceSkills from './ExperienceSkills';
+import Skills from './Skills';
 import {experience, about} from './myPortfolioData.json';
 
 function renderExperienceInfo(experience) {
@@ -15,7 +15,7 @@ function renderExperienceInfo(experience) {
               <h2 className="major">{exp.title}</h2>
               <h4>{exp.date}</h4>
               <p>{exp.description}</p>
-              <ExperienceSkills skills={exp.skills} keyname={exp.id}/>
+              <Skills skills={exp.skills} keyname={exp.id}/>
             </div>
           </div>
         </section>
