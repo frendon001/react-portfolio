@@ -8,11 +8,11 @@ function renderProjectSnapshots(snapshots) {
     snapshots.map(snapshot => {
       return (
         <article key={`snapshot_${snapshot.name}`}>
-          <a href="/" class="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></a>
-          <h3 class="major">{snapshot.name}</h3>
+          <a href="/" className="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></a>
+          <h3 className="major">{snapshot.name}</h3>
           <p>{snapshot.info}</p>
           <Skills skills={snapshot.skills} keyname={snapshot.name}/>
-          <a href="/" class="special">More details</a>
+          <a href="/" className="special">More details</a>
         </article>
       );
     })
@@ -21,11 +21,11 @@ function renderProjectSnapshots(snapshots) {
 
 function ProjectSnapshots() {
   return (
-    <section id="project-snapshots" class="wrapper alt">
-      <div class="inner">
-        <h2 class="major">My Projects</h2>
+    <section id="project-snapshots" className="wrapper alt">
+      <div className="inner">
+        <h2 className="major">My Projects</h2>
         <p>Here are few of my open source projects that are available on GitHub.</p>
-        <section class="features">
+        <section className="features">
           {renderProjectSnapshots(projectSnapshots)}
         </section>
       </div>
