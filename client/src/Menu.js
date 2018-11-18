@@ -6,9 +6,9 @@ function Menu() {
       <div className="inner">
         <h2>Menu</h2>
         <ul className="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Generic</a></li>
-          <li><a href="">Elements</a></li>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#wrapper">Generic</a></li>
+          <li><a href="#project-snapshots">Elements</a></li>
         </ul>
         <a href="#banner" className="close">Close</a>
       </div>
