@@ -1,5 +1,10 @@
 import React from 'react';
 
+function getCurrentYear() {
+  let year = new Date();
+  return year.getFullYear();
+}
+
 function Footer() {
   return (
     <section id="footer">
@@ -12,7 +17,7 @@ function Footer() {
           <li className="fa-linkedin"><a href="https://www.linkedin.com/in/faustorendon/">linkedin.com/in/faustorendon/</a></li>
         </ul>
         <ul className="copyright">
-          <li>&copy; All rights reserved.</li><li><small>Design: <a href="http://html5up.net">HTML5 UP</a></small></li>
+          <li>&copy; {getCurrentYear()} All rights reserved.</li><li><small>Design: <a href="http://html5up.net">HTML5 UP</a></small></li>
         </ul>
       </div>
     </section>

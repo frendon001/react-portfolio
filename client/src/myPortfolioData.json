@@ -185,6 +185,114 @@
         "GitHub"
       ]
     }
+  ],
+  "projects": [
+    {
+      "name": "Snappy",
+      "image": "snappy.png",
+      "info": "A web app that creates targeted email surveys. Quick and simple interface allows you to create and send surveys to any list people/customers. Sign up today and send out your first survey in under 10 minutes.",
+      "github": "https://github.com/frendon001/snappy",
+      "site": "https://snappy-us.herokuapp.com/",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Materialize CSS",
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Redux.js",
+        "Stripe",
+        "SendGrid",
+        "OAuth 2.0 withGoogle",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Fruitdrop",
+      "image": "fruitdrop.png",
+      "info": "Fruit Drop is a community for home growers who want to share and trade their fruit and produce. This allows everyone in your neighborhoods to benefit from one another and get fresh, organic produce. ",
+      "github": "https://github.com/frendon001/fruitdrop",
+      "site": "https://fruitdrop.us",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Google Maps API",
+        "Firebase",
+        "JQuery",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Crypto Bracket",
+      "image": "crypto_bracket.png",
+      "info": "Crypto Bracket is a tool that allows crypto currency investors to: Lookup current and historical coin prices, view a portfolio dashboard, as well as transaction details, and Track gains and losses and tax basis by transaction",
+      "github": "https://github.com/Blockchain-Bandits/Crypto-Bracket",
+      "site": "https://crypto-bracket.herokuapp.com/",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Plottable.js",
+        "MySQL",
+        "JQuery",
+        "Node.js",
+        "Express.js",
+        "CCXT.js",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Mongo News",
+      "image": "mongo_news.png",
+      "info": "A web app that pulls data article headlines from Techcrunch, Hackernews(YCombinator) and hackernoon. Articles can then be saved within the application and notes can be added to each saved article.",
+      "github": "https://github.com/frendon001/mongo-news",
+      "site": "https://obscure-dusk-73998.herokuapp.com/",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Node.js",
+        "Express.js",
+        "Cheerio.js",
+        "Handlebars.js",
+        "MongoDB",
+        "Heroku",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Trivia Game",
+      "image": "trivia_game.png",
+      "info": "A time based trivia game that focuses on content from Pixar movies. Put your knowledge of Pixar trivia to the test and you might learn a couple of new facts. There are 20 randomized questions, each timed for 10 seconds.",
+      "github": "https://github.com/frendon001/TriviaGame",
+      "site": "https://frendon001.github.io/TriviaGame/",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Hangman",
+      "image": "hangman.png",
+      "info": "Here is my spin on Hangman. I have chosen a space theme for my version. Test your hangman skills and knowledge of astronomy terms. There are a total of 10 randomized words.",
+      "github": "https://github.com/frendon001/Hangman-Game",
+      "site": "https://frendon001.github.io/Hangman-Game/",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "GitHub"
+      ]
+    }
   ]
 
 }
