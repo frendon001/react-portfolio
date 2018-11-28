@@ -1,6 +1,6 @@
 import React from 'react';
 //import ExperienceHeader from './ExperienceHeader';
-//import Skills from './Skills';
+import Skills from './Skills';
 import { projects } from './myPortfolioData.json';
 
 // function renderProjectDetails(snapshots) {
@@ -23,9 +23,7 @@ import { projects } from './myPortfolioData.json';
 function ProjectDetails({match}) {
   const { id } = match.params;
   const project = projects[id];
-  const projectBannerStyle = {
-    backgroundColor: '#2e3141'
-  };
+
   const projectDetailsStyle = {
     marginTop: "0"
   };
@@ -36,14 +34,22 @@ function ProjectDetails({match}) {
       <section id="project-details" className="bottom-wrapper" style={projectDetailsStyle}>
         <div className="inner"> 
           
-          <h2 className="major">{project.name}</h2>
+          <h2 id="heading" className="major">{project.name}</h2>
 
           <img src={`/assets/images/${project.image}`} alt={project.name} className="image fit-med" />
           <p>{project.info}</p>
           <section >
-            {
-              //renderProjectDetails()
-            }
+            <ul className="icons">
+              <li >
+                <a className="icon fa-globe" href={project.site}><span className="label">Globe</span></a>
+                <a href={project.site}>{project.site}</a>
+              </li>
+              <li >
+                <a className="icon fa-github" href={project.github}><span className="label">Github</span></a>
+                <a href={project.github}>{project.github}</a>
+              </li>
+            </ul>
+            <Skills skills={project.skills} keyname={project.name}/>
           </section>
         </div>
       </section>

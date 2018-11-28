@@ -9,7 +9,8 @@ $(document).ready( function($) {
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$banner = $('#banner'),
+		$heading = $('#heading');
 
 	// Breakpoints.
 		breakpoints({
@@ -34,6 +35,21 @@ $(document).ready( function($) {
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 			$banner.scrollex({
+				bottom:		$header.outerHeight(),
+				terminate:	function() { $header.removeClass('alt'); },
+				enter:		function() { $header.addClass('alt'); },
+				leave:		function() { $header.removeClass('alt'); }
+			});
+
+		}
+
+	//Heading
+		if($heading.length > 0
+			&&	$header.hasClass('alt')) {
+
+			$window.on('resize', function() { $window.trigger('scroll'); });
+
+			$heading.scrollex({
 				bottom:		$header.outerHeight(),
 				terminate:	function() { $header.removeClass('alt'); },
 				enter:		function() { $header.addClass('alt'); },

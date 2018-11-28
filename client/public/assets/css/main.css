@@ -1836,14 +1836,15 @@ button,
         margin: 0 0 2em 0 !important; } }
 
 /* Skills Format */
-#project-snapshots ul {
+ul.skills-list {
   list-style: none;
   margin-top: 0; }
-#project-snapshots .skills-list {
+
+.skills-list {
   line-height: 21px;
   padding-left: 0px;
   margin-bottom: 2em; }
-  #project-snapshots .skills-list .skill-item {
+  .skills-list .skill-item {
     display: inline-block;
     font-size: 0.6em;
     padding: 0px 10px;
@@ -1860,7 +1861,7 @@ button,
     letter-spacing: 0.1em;
     line-height: 2.75em; }
   @media screen and (min-width: 1281px) {
-    #project-snapshots .skills-list .skill-item {
+    .skills-list .skill-item {
       font-size: 0.55em; } }
 
 .experience ul {
