@@ -1151,6 +1151,11 @@ hr {
 section.special, article.special {
   text-align: center; }
 
+@media screen and (min-width: 737px) {
+  section.details {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; } }
 /* Form */
 form {
   margin: 0 0 2em 0; }
@@ -1407,7 +1412,8 @@ input[type="radio"] + label:before {
       width: 100%; }
   .image.fit-med {
     display: block;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
     width: 80%; }
@@ -1549,12 +1555,12 @@ ul.icons {
   list-style: none;
   padding-left: 0; }
   ul.icons li {
-    display: inline-block;
     padding: 0 1em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
-      font-size: 1.25em; }
+      font-size: 1em;
+      padding-right: 10px; }
 
 /* Contact */
 ul.contact {
