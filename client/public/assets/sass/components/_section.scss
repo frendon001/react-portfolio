@@ -11,3 +11,11 @@
 			text-align: center;
 		}
 	}
+	
+	@include breakpoint('>small') {
+		section.details {
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+		}
+	}
