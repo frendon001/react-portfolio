@@ -94,7 +94,7 @@
     {
       "name": "Snappy",
       "image": "snappy.png",
-      "info": "A web app that creates targeted email surveys.",
+      "info": "A web app that creates targeted email surveys with an authenticated account and credit based campaigns.",
       "skills": [
         "HTML",
         "CSS",
@@ -146,7 +146,7 @@
     {
       "name": "Mongo News",
       "image": "mongo_news.png",
-      "info": "A web app that pulls data article headlines and links from Techcrunch, Hackernews (YCombinator) and Hackernoon. ",
+      "info": "A web app that pulls article headlines and links to save or review.",
       "skills": [
         "HTML",
         "CSS",
