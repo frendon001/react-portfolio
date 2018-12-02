@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
+import ScrollToTop from './ScrollToTop';
 import Header from './Header';
 import Menu from './Menu';
 import Banner from './Banner';
@@ -15,19 +16,16 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="page-wrapper">
-          <Route path="/" component={Header} />
-          <Route path="/" component={Menu} />
-          <Route exact path="/" component={Banner} />
-          <Route exact path="/" component={Experience} />
-          <Route exact path="/" component={ProjectSnapshots} />
-          <Route exact path="/project/:id" render={ProjectDetails} />
-          <Route path="/" component={Footer} />
-          {/* <Header/>
-          <Menu/>
-          <Banner/>
-          <Experience/>
-          <ProjectSnapshots />
-          <Footer/> */}
+          
+            <Route path="/" component={Header} />
+            <Route path="/" component={Menu} />
+            <Route exact path="/" component={Banner} />
+            <Route exact path="/" component={Experience} />
+            <Route exact path="/" component={ProjectSnapshots} />
+            <ScrollToTop >
+              <Route exact path="/project/:id" render={ProjectDetails} />
+            </ScrollToTop>
+            <Route path="/" component={Footer} />
         </div>
       </BrowserRouter>
     );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 
 function Menu() {
   return (
@@ -6,10 +7,29 @@ function Menu() {
       <div className="inner">
         <h2>Menu</h2>
         <ul className="links">
-          <li><a href="#banner">Home</a></li>
-          <li><a href="#wrapper">Experience</a></li>
-          <li><a href="#project-snapshots">Projects</a></li>
-          <li><a href="#footer">Contact Me</a></li>
+          <BrowserRouter>
+            <Switch>
+              <Route exact path="/project/:id" render={() => {
+                return (
+                <>
+                  <li><Link to="/#banner">Home</Link></li>
+                  <li><Link to="/#wrapper">Experience</Link></li>
+                  <li><Link to="/#project-snapshots">Projects</Link></li>
+                </>
+                );
+              }}/>
+              <Route render={() => {
+                return (
+                <>
+                  <li><Link to="#banner">Home</Link></li>
+                  <li><Link to="#wrapper">Experience</Link></li>
+                  <li><Link to="#project-snapshots">Projects</Link></li>
+                </>
+                );
+              }}/>
+            </Switch>
+          </BrowserRouter>
+          <li><Link to="#footer">Contact Me</Link></li>
         </ul>
         <a href="#banner" className="close">Close</a>
       </div>
