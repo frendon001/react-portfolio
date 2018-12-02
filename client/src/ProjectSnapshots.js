@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { projectSnapshots } from './myPortfolioData.json';
 
 function renderProjectSnapshots(snapshots) {
@@ -9,7 +11,7 @@ function renderProjectSnapshots(snapshots) {
           <a href="/" className="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></a>
           <h3 className="major">{snapshot.name}</h3>
           <p>{snapshot.info}</p>
-          <a href="/" className="special">More details</a>
+          <Link to={`/project/${snapshot.id}`} className="special">More details</Link>
         </article>
       );
     })

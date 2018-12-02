@@ -92,6 +92,7 @@
   },
   "projectSnapshots": [
     {
+      "id": "0",
       "name": "Snappy",
       "image": "snappy.png",
       "info": "A web app that creates targeted email surveys with an authenticated account and credit based campaigns.",
@@ -111,6 +112,7 @@
       ]
     },
     {
+      "id": "1",
       "name": "Fruitdrop",
       "image": "fruitdrop.png",
       "info": "A site for communities to share home grown fruits and vegetables in order to prevent food waste.",
@@ -126,6 +128,7 @@
       ]
     },
     {
+      "id": "2",
       "name": "Crypto Bracket",
       "image": "crypto_bracket.png",
       "info": "Crypto Bracket is a tool for crypto currency tracking.",
@@ -144,6 +147,7 @@
       ]
     },
     {
+      "id": "3",
       "name": "Mongo News",
       "image": "mongo_news.png",
       "info": "A web app that pulls article headlines and links to save or review.",
@@ -162,6 +166,7 @@
       ]
     },
     {
+      "id": "4",
       "name": "Trivia Game",
       "image": "trivia_game.png",
       "info": "A time based trivia game that focuses on content from Pixar movies.",
@@ -174,6 +179,7 @@
       ]
     },
     {
+      "id": "5",
       "name": "Hangman",
       "image": "hangman.png",
       "info": "Here is my spin on Hangman. I have chosen a space theme for my version.",
