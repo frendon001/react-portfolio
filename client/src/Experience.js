@@ -26,13 +26,15 @@ function renderExperienceInfo(experience) {
 
 function Experience() {
   return (
-    <section id="wrapper" className="experience">
+    <section id="experience">
+    <div id="wrapper" className="experience">
       <section className={`wrapper`}>
-        <div className="inner">
-          <ExperienceHeader about={about} />
-        </div>
-      </section>
-      {renderExperienceInfo(experience)}
+          <div className="inner">
+            <ExperienceHeader about={about} />
+          </div>
+        </section>
+        {renderExperienceInfo(experience)}
+    </div>
     </section>
   );
 }

@@ -1569,7 +1569,6 @@ ul.contact {
   ul.contact li {
     text-decoration: none;
     margin: 2.5em 0 0 0;
-    padding: 0 0 0 3.25em;
     position: relative; }
     ul.contact li:before {
       -moz-osx-font-smoothing: grayscale;
@@ -1582,19 +1581,27 @@ ul.contact {
       border-radius: 100%;
       border: solid 2px rgba(255, 255, 255, 0.125);
       display: inline-block;
-      font-size: 0.8em;
-      height: 2.5em;
-      left: 0;
-      line-height: 2.35em;
-      position: absolute;
+      font-size: 1.75em;
+      height: 1.75em;
+      line-height: 1.65em;
       text-align: center;
-      top: 0;
-      width: 2.5em; }
+      width: 1.75em;
+      margin-right: 0.5em; }
     ul.contact li:first-child {
       margin-top: 0; }
   @media screen and (max-width: 736px) {
     ul.contact li {
-      margin: 1.5em 0 0 0; } }
+      margin: 1.5em 0 0 0; }
+      ul.contact li:before {
+        border-radius: 100%;
+        border: solid 2px rgba(255, 255, 255, 0.125);
+        display: inline-block;
+        font-size: 1em;
+        height: 2.5em;
+        line-height: 2.35em;
+        text-align: center;
+        width: 2.5em;
+        margin-right: 0.5em; } }
 
 /* Pagination */
 ul.pagination {
