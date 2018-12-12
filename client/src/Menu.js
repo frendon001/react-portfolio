@@ -12,8 +12,8 @@ function Menu() {
               <Route exact path="/project/:id" render={() => {
                 return (
                 <>
-                  <li><Link to="/#banner">Home</Link></li>
-                  <li><Link to="/#wrapper">Experience</Link></li>
+                  <li><Link to="/#home">Home</Link></li>
+                  <li><Link to="/#experience">Experience</Link></li>
                   <li><Link to="/#project-snapshots">Projects</Link></li>
                 </>
                 );
@@ -21,17 +21,17 @@ function Menu() {
               <Route render={() => {
                 return (
                 <>
-                  <li><Link to="#banner">Home</Link></li>
-                  <li><Link to="#wrapper">Experience</Link></li>
+                  <li><Link to="#home">Home</Link></li>
+                  <li><Link to="#experience">Experience</Link></li>
                   <li><Link to="#project-snapshots">Projects</Link></li>
                 </>
                 );
               }}/>
             </Switch>
           </BrowserRouter>
-          <li><Link to="#footer">Contact Me</Link></li>
+          <li><Link to="#contact">Contact Me</Link></li>
         </ul>
-        <a href="#banner" className="close">Close</a>
+        <a href="#home" className="close">Close</a>
       </div>
     </nav>
   );
