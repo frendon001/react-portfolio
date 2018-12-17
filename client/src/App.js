@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import ScrollToTop from './ScrollToTop';
 import Header from './Header';
@@ -7,7 +7,7 @@ import Menu from './Menu';
 import Banner from './Banner';
 import Experience from './Experience';
 import ProjectSnapshots from './ProjectSnapshots';
-import ProjectDetails from './ProjectDetails';
+import ProjectPage from './Pages/ProjectPage';
 import Footer from './Footer';
 import './App.css';
 
@@ -16,16 +16,37 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="page-wrapper">
+        <Switch>
+          <Route exact path="/" render={() => (
+            <div>
+                <Header/>
+                <Menu/>
+                <Banner/>
+                <Experience/>
+                <ProjectSnapshots/>
+                <Footer/>
+            </div>
+            )} />
+            
           
-            <Route path="/" component={Header} />
-            <Route path="/" component={Menu} />
-            <Route exact path="/" component={Banner} />
-            <Route exact path="/" component={Experience} />
-            <Route exact path="/" component={ProjectSnapshots} />
-            <ScrollToTop >
-              <Route exact path="/project/:id" render={ProjectDetails} />
+          <Route exact path="/project/:id" render={({match}) => 
+            (
+              <ScrollToTop>
+            <ProjectPage match={match} />
             </ScrollToTop>
-            <Route path="/" component={Footer} />
+          )} />
+          
+          <Route render={() => (
+            <div>
+                <Header/>
+                <Menu/>
+                <Banner/>
+                <Experience/>
+                <ProjectSnapshots/>
+                <Footer/>
+            </div>
+            )} />
+        </Switch>
         </div>
       </BrowserRouter>
     );
