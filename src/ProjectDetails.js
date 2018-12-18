@@ -11,6 +11,7 @@ function ProjectDetails({match}) {
     const projectDetailsStyle = {
       marginTop: "0"
     };
+
     return (
       <>
         <section id="project-details" className="bottom-wrapper" style={projectDetailsStyle}>
@@ -33,6 +34,13 @@ function ProjectDetails({match}) {
             </section>
           </div>
         </section>
+        <script type="text/javascript">
+        {`
+        
+
+        
+        `}
+        </script>
       </> 
     );
   } else {
