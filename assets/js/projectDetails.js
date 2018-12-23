@@ -15,9 +15,3 @@ if($heading.length > 0) {
   });
 }
 window.scrollTo(0, 0);
-
-window.addEventListener("unload", function(event) {
-  if ( window.location.pathname && window.location.pathname.includes('project')) {
-    window.location.href = "https://frendon001.github.io/react-portfolio/";
-  }
- });
