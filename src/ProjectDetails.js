@@ -17,7 +17,7 @@ function ProjectDetails({match}) {
         <section id="project-details" className="bottom-wrapper" style={projectDetailsStyle}>
           <div className="inner"> 
             <h2 id="heading" className="major">{project.name}</h2>
-            <img src={`/assets/images/${project.image}`} alt={project.name} className="image fit-med" />
+            <img src={`assets/images/${project.image}`} alt={project.name} className="image fit-med" />
             <section className="details">
               <p>{project.info}</p>
               <ul className="icons">

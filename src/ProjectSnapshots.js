@@ -8,10 +8,10 @@ function renderProjectSnapshots(snapshots) {
     snapshots.map(snapshot => {
       return (
         <article key={`snapshot_${snapshot.name}`}>
-          <Link to={`/project/${snapshot.id}`} className="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></Link>
+          <Link to={`project/${snapshot.id}`} className="image"><img src={`assets/images/${snapshot.image}`} alt={snapshot.image} /></Link>
           <h3 className="major">{snapshot.name}</h3>
           <p>{snapshot.info}</p>
-          <Link to={`/project/${snapshot.id}`} className="special">More details</Link>
+          <Link to={`project/${snapshot.id}`} className="special">More details</Link>
         </article>
       );
     })
