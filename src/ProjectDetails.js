@@ -22,12 +22,12 @@ function ProjectDetails({match}) {
               <p>{project.info}</p>
               <ul className="icons">
                 <li >
-                  <a className="icon fa-globe fa-2x" href={project.site}><span className="label">Globe</span></a>
-                  <a href={project.site}>{project.site}</a>
+                  <a className="icon fa-globe fa-2x" href={project.site} target="_blank" rel="noopener noreferrer"><span className="label">Globe</span></a>
+                  <a href={project.site} target="_blank" rel="noopener noreferrer">{project.site}</a>
                 </li>
                 <li >
-                  <a className="icon fa-github fa-2x" href={project.github}><span className="label">Github</span></a>
-                  <a href={project.github}>{project.github}</a>
+                  <a className="icon fa-github fa-2x" href={project.github} target="_blank" rel="noopener noreferrer"><span className="label">Github</span></a>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">{project.github}</a>
                 </li>
               </ul>
               <Skills skills={project.skills} keyname={project.name}/>
