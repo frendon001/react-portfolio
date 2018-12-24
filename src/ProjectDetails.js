@@ -34,13 +34,6 @@ function ProjectDetails({match}) {
             </section>
           </div>
         </section>
-        <script type="text/javascript">
-        {`
-        
-
-        
-        `}
-        </script>
       </> 
     );
   } else {
