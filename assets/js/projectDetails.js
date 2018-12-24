@@ -1,4 +1,3 @@
-console.log('test');
 var	$window = $(window),
   $header = $('#header'),
   $heading = $('#heading');
