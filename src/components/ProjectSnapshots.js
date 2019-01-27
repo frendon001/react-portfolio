@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { projectSnapshots } from './myPortfolioData.json';
+import { projectSnapshots } from './data/myPortfolioData';
 
 function renderProjectSnapshots(snapshots) {
   return(
