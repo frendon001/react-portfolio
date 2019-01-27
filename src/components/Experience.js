@@ -1,7 +1,7 @@
 import React from 'react';
 import ExperienceHeader from './ExperienceHeader';
 import Skills from './Skills';
-import {experience, about} from './myPortfolioData.json';
+import {experience, about} from './data/myPortfolioData';
 
 function renderExperienceInfo(experience) {
   return(

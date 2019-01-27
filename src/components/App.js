@@ -7,7 +7,7 @@ import Menu from './Menu';
 import Banner from './Banner';
 import Experience from './Experience';
 import ProjectSnapshots from './ProjectSnapshots';
-import ProjectPage from './Pages/ProjectPage';
+import ProjectPage from './pages/ProjectPage';
 import Footer from './Footer';
 import './App.css';
 
@@ -29,11 +29,11 @@ class App extends Component {
             )} />
             
           
-          <Route exact path="/project/:id" render={({match}) => 
-            (
+          <Route exact path="/project/:id" render={
+            ({match}) => (
               <ScrollToTop>
-            <ProjectPage match={match} />
-            </ScrollToTop>
+                <ProjectPage match={match} />
+              </ScrollToTop>
           )} />
           
           <Route render={() => (

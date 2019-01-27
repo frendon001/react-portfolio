@@ -2,7 +2,7 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 
 import Skills from './Skills';
-import { projects } from './myPortfolioData.json';
+import { projects } from './data/myPortfolioData';
 
 function ProjectDetails({match}) {
   const { id } = match.params;
