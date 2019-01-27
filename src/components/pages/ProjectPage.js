@@ -4,7 +4,7 @@ import Header from '../Header';
 import Menu from '../Menu';
 import ProjectDetails from '../ProjectDetails';
 import Footer from '../Footer';
-//import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 class ProjectPage extends Component {
   componentDidMount () {
@@ -16,12 +16,12 @@ class ProjectPage extends Component {
   render() {
     const match = this.props.match;
     return (
-      <div>
-      <Header/>
-      <Menu/>
-      <ProjectDetails match={match}/>
-      <Footer/>
-      </div>
+      <ScrollToTop>
+        <Header/>
+        <Menu/>
+        <ProjectDetails match={match}/>
+        <Footer/>
+      </ScrollToTop>
     );
   }
 }
