@@ -18,7 +18,7 @@ class ProjectPage extends Component {
     return (
       <ScrollToTop>
         <Header/>
-        <Menu/>
+        <Menu match={match}/>
         <ProjectDetails match={match}/>
         <Footer/>
       </ScrollToTop>

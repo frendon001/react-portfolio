@@ -7,11 +7,12 @@ import Experience from '../Experience';
 import ProjectSnapshots from '../ProjectSnapshots';
 import Footer from '../Footer';
 
-const MainPage = () => {
+const MainPage = (props) => {
+  const match = props.match;
   return (
     <div>
       <Header/>
-      <Menu/>
+      <Menu match={match}/>
       <Banner/>
       <Experience/>
       <ProjectSnapshots/>

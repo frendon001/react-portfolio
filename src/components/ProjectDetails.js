@@ -37,7 +37,7 @@ function ProjectDetails({match}) {
       </> 
     );
   } else {
-    return <Redirect to="/#project-snapshots" />;
+    return <Redirect to="/" />;
   }
 }
 

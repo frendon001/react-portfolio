@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 
-function Menu() {
+function Menu({match}) {
+  const { url } = match;
   return (
     <nav id="menu">
       <div className="inner">
@@ -9,7 +10,7 @@ function Menu() {
         <ul className="links">
           <BrowserRouter>
             <Switch>
-              <Route exact path="/project/:id" render={() => {
+              <Route path="/project/:id" render={() => {
                 return (
                 <>
                   <li><Link to="/#home">Home</Link></li>
@@ -29,7 +30,7 @@ function Menu() {
               }}/>
             </Switch>
           </BrowserRouter>
-          <li><Link to="#contact">Contact Me</Link></li>
+          <li><Link to={`${url}#contact`}>Contact Me</Link></li>
         </ul>
         <a href="#home" className="close">Close</a>
       </div>
