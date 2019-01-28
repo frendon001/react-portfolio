@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="page-wrapper">
+        <div id="app-wrapper" className="page-wrapper">
         <Switch>
           <Route path="/project/:id" component={ProjectPage} />
           <Route  path="/" component={MainPage}/>

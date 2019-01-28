@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Header from '../Header';
 import Menu from '../Menu';
@@ -7,17 +7,26 @@ import Experience from '../Experience';
 import ProjectSnapshots from '../ProjectSnapshots';
 import Footer from '../Footer';
 
-const MainPage = () => {
-  return (
-    <div>
-      <Header/>
-      <Menu/>
-      <Banner/>
-      <Experience/>
-      <ProjectSnapshots/>
-      <Footer/>
-  </div>
-  );
+class MainPage extends Component {
+  componentDidMount () {
+    const script = document.createElement("script");
+    script.src = "/assets/js/projectDetails.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+
+  render() {
+    return (
+      <>
+        <Header/>
+        <Menu/>
+        <Banner/>
+        <Experience/>
+        <ProjectSnapshots/>
+        <Footer/>
+      </>
+    );
+    }
 }
 
 export default MainPage;
