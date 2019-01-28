@@ -12,13 +12,14 @@ class ProjectPage extends Component {
     script.src = "/assets/js/projectDetails.js";
     script.async = true;
     document.body.appendChild(script);
-}
+    window.scrollTo(0, 0);
+  }
   render() {
     const match = this.props.match;
     return (
       <ScrollToTop>
         <Header/>
-        <Menu match={match}/>
+        <Menu/>
         <ProjectDetails match={match}/>
         <Footer/>
       </ScrollToTop>
