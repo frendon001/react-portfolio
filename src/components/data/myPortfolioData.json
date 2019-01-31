@@ -6,18 +6,25 @@
       "image": "assets/images/rgr_logo.png",
       "title": "Full Stack Developer",
       "date": "September 2018 – Present",
-      "description": "Set up, maintain, update, and optimize (A/B Testing) hosted sites using a LAMP Stack. Design, develop, code and test client API integrations. Contribute to agile development of project timelines, implementation design specification, system flow diagrams.",
+      "description": "Contributed to product development, product enhancement and bug fixing of the front-end and back-end using the  Linux, Apache, MySQL, and PHP Stack, React, AWS and Rackspace.",
+      "descriptionItems": [
+        "Built, maintained and deployed the front-end of new sites to collect leads (Solar, Refinance, Tax)",
+        "Created complex SQL scripts to provide clients and team member with data not available in reporting platform",
+        "Experienced in integrating of client APIs"
+      ],
       "skills": [
+        "Javascript (ES6/ES7)",
+        "Node.js",
         "PHP",
         "Linux",
         "Apache",
         "MySQL",
-        "JavaScript",
         "HTML",
         "CSS",
         "Boostrap",
         "GIT",
         "Jira"
+        
       ]
     },
     {
@@ -26,18 +33,24 @@
       "image": "assets/images/jons_logo.png",
       "title": "Front End Developer",
       "date": "March 2018 – September 2018",
-      "description": "In charge of the build and design of an internal loss prevention web application. Developing a Loss Prevention Tracking System using a JavaSpring based REST Service and a Reactjs with Redux.",
+      "description": "Built and maintained a React with Redux based front-end user interface for an internal loss (theft) prevention web application to centralize theft cases at all Jons locations by taking a paper-based process and moving it fully online.",
+      "descriptionItems": [
+        "Created customized views based on role access provided though single sign on credentials",
+        "Styled the application by using Bootstrap and created forms using Redux-Form"
+      ],
       "skills": [
         "Node.js",
         "React.js",
         "Redux.js",
+        "Redux Thunk",
         "MySQL",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "HTML",
         "CSS",
         "Boostrap",
         "GIT",
         "Java"
+
       ]
     },
     {
@@ -45,21 +58,14 @@
       "company": "Lieberman Research Worldwide",
       "image": "assets/images/lrw_logo.png",
       "title": "Solutions Specialist",
-      "date": "October 2015 – September 2018",
-      "description": "Manage and lead the implementation/maintenance of customer experience survey programs and reporting interfaces for Fortune 500 Companies.",
-      "skills": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "id": "lrw_analyst",
-      "company": "Lieberman Research Worldwide",
-      "image": "assets/images/lrw_logo.png",
-      "title": "Solutions Analyst",
-      "date": "August 2014 – October 2015",
-      "description": "Implemented and maintained multiple custom-built survey programs and reporting interfaces for Customer Experience Management (CEM).",
+      "date": "October 2014 – September 2018",
+      "description": "Built, deployed and maintained 6 customer experience survey programs that collect and report data to drive business decisions for Fortune 500 Companies. Some of my greatest accomplishments include:",
+      "descriptionItems": [
+        "Created customized email and SMS targeted web-based surveys using HTML, CSS and JavaScript",
+        "Created a JavaScript tool to dynamically clean out profanity in comments before displaying in reporting",
+        "Identified operational issues with online purchases and provided metrics to drive changes in the online retail process",
+        "Increased volume of customer reviews on a retailers’ web page 40% by integrating customer experience surveys with the Bazaarvoice platform and directly driving traffic to the platform through an opt in process to leave an additional product/service review"
+      ],
       "skills": [
         "JavaScript",
         "HTML",
@@ -75,19 +81,30 @@
       "Node.js",
       "React.js",
       "Redux.js",
+      "Redux Thunk",
       "MySQL",
       "MongoDB",
       "Firebase",
-      "JavaScript",
+      "Javascript (ES6/ES7)",
+      "Express.js",
+      "Semantic UI",
+      "Materialize CSS",
+      "Sequelize",
+      "Mongoose",
       "PHP",
       "Java",
       "HTML",
       "CSS",
       "Boostrap",
+      "C++",
+      "AWS",
       "GIT",
       "Linux",
       "Apache",
-      "Jira"
+      "Jira",
+      "Agile Scrum",
+      "Kanban",
+      "Waterfall"
     ]
   },
   "projectSnapshots": [
@@ -99,7 +116,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Materialize CSS",
         "MongoDB",
         "Express.js",
@@ -119,7 +136,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Google Maps API",
         "Firebase",
@@ -135,7 +152,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Plottable.js",
         "MySQL",
@@ -154,7 +171,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Node.js",
         "Express.js",
@@ -173,7 +190,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "GitHub"
       ]
@@ -186,7 +203,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "GitHub"
       ]
@@ -202,7 +219,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Materialize CSS",
         "MongoDB",
         "Express.js",
@@ -223,7 +240,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Google Maps API",
         "Firebase",
@@ -240,7 +257,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Plottable.js",
         "MySQL",
@@ -260,7 +277,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "Node.js",
         "Express.js",
@@ -280,7 +297,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "GitHub"
       ]
@@ -294,7 +311,7 @@
       "skills": [
         "HTML",
         "CSS",
-        "JavaScript",
+        "Javascript (ES6/ES7)",
         "Bootstrap",
         "GitHub"
       ]
