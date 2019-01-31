@@ -3,6 +3,19 @@ import ExperienceHeader from './ExperienceHeader';
 import Skills from './Skills';
 import {experience, about} from './data/myPortfolioData';
 
+const descItemsStyle = {
+  listStyle: 'circle'
+};
+
+function descriptionItems(items=[],company) {
+  return items.map((item,index) => {
+    
+    return (
+      <li key={`${company}_${index}`}>{item}</li>
+    );
+  });
+}
+
 function renderExperienceInfo(experience) {
   return(
     experience.map((exp,index) => {
@@ -15,6 +28,11 @@ function renderExperienceInfo(experience) {
               <h2 className="major">{exp.title}</h2>
               <h4>{exp.date}</h4>
               <p>{exp.description}</p>
+              <div>
+                <ul style={descItemsStyle}>
+                {descriptionItems(exp.descriptionItems,exp.id)}
+                </ul>
+              </div>
               <Skills skills={exp.skills} keyname={exp.id}/>
             </div>
           </div>
