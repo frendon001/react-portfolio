@@ -61,8 +61,9 @@
       "date": "October 2014 – September 2018",
       "description": "Built, deployed and maintained 6 customer experience survey programs that collect and report data to drive business decisions for Fortune 500 Companies. Some of my greatest accomplishments include:",
       "descriptionItems": [
-        "Identified operational issues with online purchases and provided metrics to drive changes in the online retail process.Created customized email and SMS targeted web-based surveys using HTML, CSS and JavaScript",
+        "Created customized email and SMS targeted web-based surveys using HTML, CSS and JavaScript",
         "Created a JavaScript tool to dynamically clean out profanity in comments before displaying in reporting",
+        "Identified operational issues with online purchases and provided metrics to drive changes in the online retail process",
         "Increased volume of customer reviews on a retailers’ web page 40% by integrating customer experience surveys with the Bazaarvoice platform and directly driving traffic to the platform through an opt in process to leave an additional product/service review"
       ],
       "skills": [
