@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function MenuList (props) {
-  console.log(props.match);
   const { url } = props.match;
   return (
   <>
