@@ -11,6 +11,17 @@ function ProjectDetails({match}) {
     const projectDetailsStyle = {
       marginTop: "0"
     };
+    const backIconStyle = {
+      fontSize: '2em',
+      color: '#dbdee0',
+      margin: '2em 0 0 0',
+    }
+    const backTextStyle ={
+      fontSize: '0.7em',
+      verticalAlign: 'text-top',
+      fontWeight: 'bold',
+      borderBottom: 'dotted 1px rgba(255, 255, 255, 0.35)'
+    }
 
     return (
       <>
@@ -31,6 +42,12 @@ function ProjectDetails({match}) {
                 </li>
               </ul>
               <Skills skills={project.skills} keyname={project.name}/>
+
+                <p className="icon fa-arrow-left " style={backIconStyle} onClick={()=> window.history.back()}>
+                  <span className="label">Arrow Left</span>
+                  <span style={backTextStyle}> Back To Projects</span>
+                </p>
+
             </section>
           </div>
         </section>
