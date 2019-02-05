@@ -31,6 +31,12 @@ function ProjectDetails({match}) {
                 </li>
               </ul>
               <Skills skills={project.skills} keyname={project.name}/>
+
+                <p className="icon fa-arrow-left navigate-back" onClick={()=> window.history.back()}>
+                  <span className="label">Arrow Left</span>
+                  <span className="navigate-back-text" > Back To Projects</span>
+                </p>
+
             </section>
           </div>
         </section>

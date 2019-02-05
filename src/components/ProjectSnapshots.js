@@ -20,7 +20,7 @@ function renderProjectSnapshots(snapshots) {
 
 function ProjectSnapshots() {
   return (
-    <section id="project-snapshots" className="wrapper alt">
+    <section id="project-snapshots" className="wrapper">
       <div className="inner">
         <h2 className="major">My Projects</h2>
         <p>Here are few of my open source projects that are available on GitHub.</p>
