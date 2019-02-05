@@ -1,0 +1,26 @@
+
+
+/* Project Details */
+
+#project-details {
+  .details {
+    .navigate-back {
+      font-size: 2em;
+      color: #dbdee0;
+      margin: 2em 0 0 0;
+      .navigate-back-text {
+        font-size: 0.7em;
+        vertical-align: text-top;
+        font-weight: bold;
+        border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+      }
+    }
+
+    .navigate-back:hover {
+      color: #eaeff3;
+      cursor: pointer;
+    }
+  }
+}
+
+

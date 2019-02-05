@@ -189,7 +189,7 @@
 			&:nth-child(2n - 1) {
 				.inner {
 					@include vendor('flex-direction', 'row-reverse');
-					text-align: right;
+					/*text-align: right;*/
 				}
 
 				.image {
@@ -230,6 +230,10 @@
 			}
 
 			&.spotlight {
+				// .inner {
+				// 	@include vendor('align-items', 'flex-start');
+				// }
+
 				.image {
 					margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
 					width: 15em;
@@ -265,7 +269,7 @@
 
 			&.spotlight {
 				.inner {
-					@include vendor('align-items', 'flex-start');
+					display: block;
 				}
 
 				.image {
@@ -283,9 +287,7 @@
 
 		@include breakpoint('<=xsmall') {
 			&.spotlight {
-				.inner {
-					display: block;
-				}
+
 
 				.image {
 					margin: 0 0 (_size(element-margin) * 0.5) 0 !important;
