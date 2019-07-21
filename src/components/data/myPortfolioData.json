@@ -1,11 +1,38 @@
 {
   "experience": [
     {
+      "id": "currency",
+      "company": "Currency",
+      "image": "assets/images/currency_logo.png",
+      "useWhiteBg": true,
+      "title": "Full Stack Engineer",
+      "date": "April 2019 – Present",
+      "description": "Contributed to the development of complex JavaScript and C# applications with the goal of creating a a wold-class product.",
+      "descriptionItems": [
+        "Built, maintained back-end and back-end application to continue supporting growth of the company",
+        "Contributed to key strategic integrations to with third party partners for application processing"
+      ],
+      "skills": [
+        "Javascript (ES6/ES7)",
+        "Node.js",
+        "React",
+        "C#",
+        "MongoDB",
+        "MySQL",
+        "HTML",
+        "CSS",
+        ".NET",
+        "GIT",
+        "Jira"
+      ]
+    },
+    {
       "id": "rgr",
       "company": "RGR Marketing",
       "image": "assets/images/rgr_logo.png",
+      "useWhiteBg": false,
       "title": "Full Stack Developer",
-      "date": "September 2018 – Present",
+      "date": "September 2018 – March 2019",
       "description": "Contributed to product development, product enhancement and bug fixing of the front-end and back-end using the  Linux, Apache, MySQL, and PHP Stack, React, AWS and Rackspace.",
       "descriptionItems": [
         "Built, maintained and deployed the front-end of new sites to collect leads (Solar, Refinance, Tax)",
@@ -24,13 +51,13 @@
         "Boostrap",
         "GIT",
         "Jira"
-        
       ]
     },
     {
       "id": "jons",
       "company": "Jons Marketplace",
       "image": "assets/images/jons_logo.png",
+      "useWhiteBg": false,
       "title": "Front End Developer",
       "date": "March 2018 – September 2018",
       "description": "Built and maintained a React with Redux based front-end user interface for an internal loss (theft) prevention web application to centralize theft cases at all Jons locations by taking a paper-based process and moving it fully online.",
@@ -50,13 +77,13 @@
         "Boostrap",
         "GIT",
         "Java"
-
       ]
     },
     {
       "id": "lrw_specialist",
       "company": "Lieberman Research Worldwide",
       "image": "assets/images/lrw_logo.png",
+      "useWhiteBg": false,
       "title": "Solutions Specialist",
       "date": "October 2014 – September 2018",
       "description": "Built, deployed and maintained 6 customer experience survey programs that collect and report data to drive business decisions for Fortune 500 Companies. Some of my greatest accomplishments include:",
@@ -66,15 +93,11 @@
         "Identified operational issues with online purchases and provided metrics to drive changes in the online retail process",
         "Increased volume of customer reviews on a retailers’ web page 40% by integrating customer experience surveys with the Bazaarvoice platform and directly driving traffic to the platform through an opt in process to leave an additional product/service review"
       ],
-      "skills": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ]
+      "skills": ["JavaScript", "HTML", "CSS"]
     }
   ],
   "about": {
-    "aboutme": "I am a Full Stack Developer with a background in electrical engineering. I have 4 years of experience designing, building and maintaining large customer experience programs for Fortune 500 companies. My strengths include teamwork, effective communication, and problem solving. I especially enjoy learning new technologies and working on personal projects. You can find some of these projects below. I am open to opportunies where I can continue to develop professionally.",
+    "aboutme": "I am a Full Stack Engineer with a background in electrical engineering. I have over 4 years of experience designing, building and maintaining large customer experience programs for Fortune 500 companies. My strengths include teamwork, effective communication, and problem solving. I especially enjoy learning new technologies and working on personal projects. You can find some of these projects below. I am open to opportunies where I can continue to develop professionally.",
     "location": "Los Angeles, CA",
     "education": "B.S. Electrical Engineering, UCLA",
     "skills": [
@@ -86,6 +109,8 @@
       "MongoDB",
       "Firebase",
       "Javascript (ES6/ES7)",
+      "C#",
+      ".NET",
       "Express.js",
       "Semantic UI",
       "Materialize CSS",
@@ -187,26 +212,14 @@
       "name": "Trivia Game",
       "image": "trivia_game.jpg",
       "info": "A time based trivia game that focuses on content from Pixar movies.",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "GitHub"
-      ]
+      "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     },
     {
       "id": "5",
       "name": "Hangman",
       "image": "hangman.jpg",
       "info": "Here is my spin on Hangman. I have chosen a space theme for my version.",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "GitHub"
-      ]
+      "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     }
   ],
   "projects": [
@@ -294,13 +307,7 @@
       "info": "A time based trivia game that focuses on content from Pixar movies. Put your knowledge of Pixar trivia to the test and you might learn a couple of new facts. There are 20 randomized questions, each timed for 10 seconds.",
       "github": "https://github.com/frendon001/TriviaGame",
       "site": "https://frendon001.github.io/TriviaGame/",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "GitHub"
-      ]
+      "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     },
     {
       "name": "Hangman",
@@ -308,14 +315,7 @@
       "info": "Here is my spin on Hangman. I have chosen a space theme for my version. Test your hangman skills and knowledge of astronomy terms. There are a total of 10 randomized words.",
       "github": "https://github.com/frendon001/Hangman-Game",
       "site": "https://frendon001.github.io/Hangman-Game/",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "GitHub"
-      ]
+      "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     }
   ]
-
 }

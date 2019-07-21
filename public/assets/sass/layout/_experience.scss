@@ -1,5 +1,3 @@
-
-
 /* Experience */
 
 .experience {
@@ -10,7 +8,7 @@
   .about-location {
     grid-area: about-location;
   }
-  
+
   .about-education {
     grid-area: about-education;
   }
@@ -22,19 +20,23 @@
   .aboutme-grid-wrapper {
     display: grid;
     grid-template-areas:
-    "about-sidebar"
-    "about-location"
-    "about-education"
-    "about-skills";
+      'about-sidebar'
+      'about-location'
+      'about-education'
+      'about-skills';
+  }
+
+  .white-bg {
+    background-color: white;
   }
 
   @include breakpoint('>=small') {
     .aboutme-grid-wrapper {
       grid-template-columns: 65% 35%;
       grid-template-areas:
-      "about-sidebar about-sidebar"
-      "about-location about-education"
-      "about-skills ....";
+        'about-sidebar about-sidebar'
+        'about-location about-education'
+        'about-skills ....';
     }
   }
 
@@ -43,11 +45,9 @@
       justify-content: space-between;
       grid-template-columns: 45% 35%;
       grid-template-areas:
-      "about-sidebar about-location"
-      "about-sidebar about-education"
-      "about-sidebar about-skills";
+        'about-sidebar about-location'
+        'about-sidebar about-education'
+        'about-sidebar about-skills';
     }
   }
 }
-
-
