@@ -97,7 +97,7 @@
     }
   ],
   "about": {
-    "aboutme": "I am a Full Stack Engineer with a background in electrical engineering. I have over 4 years of experience designing, building and maintaining large customer experience programs for Fortune 500 companies. My strengths include teamwork, effective communication, and problem solving. I especially enjoy learning new technologies and working on personal projects. You can find some of these projects below. I am open to opportunies where I can continue to develop professionally.",
+    "aboutMe": "I am a Full Stack Engineer with a background in electrical engineering. I have over 4 years of experience designing, building and maintaining large customer experience programs for Fortune 500 companies. My strengths include teamwork, effective communication, and problem solving. I especially enjoy learning new technologies and working on personal projects. You can find some of these projects below. I am open to opportunities where I can continue to develop professionally.",
     "location": "Los Angeles, CA",
     "education": "B.S. Electrical Engineering, UCLA",
     "skills": [
@@ -171,20 +171,21 @@
     },
     {
       "id": "2",
-      "name": "Crypto Bracket",
-      "image": "crypto_bracket.png",
-      "info": "Crypto Bracket is a tool for crypto currency tracking.",
+      "name": "Bob's Banana Budget",
+      "image": "banana_budget.jpg",
+      "info": "A complete Full-Stack Node application with a React Front End and unit tests for the REST API backend. Showcases a handy calculator to solve Bob's Banana Budget problem.",
       "skills": [
+        "React.js",
+        "Formik",
+        "Axios",
+        "Semantic UI",
+        "Mocha.js",
+        "Chai.js",
         "HTML",
         "CSS",
         "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "Plottable.js",
-        "MySQL",
-        "JQuery",
         "Node.js",
         "Express.js",
-        "CCXT.js",
         "GitHub"
       ]
     },
@@ -262,22 +263,23 @@
       ]
     },
     {
-      "name": "Crypto Bracket",
-      "image": "crypto_bracket.png",
-      "info": "Crypto Bracket is a tool that allows crypto currency investors to: Lookup current and historical coin prices, view a portfolio dashboard, as well as transaction details, and Track gains and losses and tax basis by transaction",
-      "github": "https://github.com/Blockchain-Bandits/Crypto-Bracket",
-      "site": "https://crypto-bracket.herokuapp.com/",
+      "name": "Bob's Banana Budget",
+      "image": "banana_budget.jpg",
+      "info": "A complete Full-Stack Node application with a React Front End and unit tests for the REST API backend. The main purpose of this application is to create a calculator that solves Bob's Budget dilemma as stated in the application.",
+      "github": "https://github.com/frendon001/banana-budgett",
+      "site": "https://banana-budget-fr.herokuapp.com/",
       "skills": [
+        "React.js",
+        "Formik",
+        "Axios",
+        "Semantic UI",
+        "Mocha.js",
+        "Chai.js",
         "HTML",
         "CSS",
         "Javascript (ES6/ES7)",
-        "Bootstrap",
-        "Plottable.js",
-        "MySQL",
-        "JQuery",
         "Node.js",
         "Express.js",
-        "CCXT.js",
         "GitHub"
       ]
     },
