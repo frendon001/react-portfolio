@@ -6,7 +6,7 @@ function ExperienceHeader(props) {
     <div className="content aboutme-grid-wrapper">
     <section className="about-sidebar">
       <h2 className="major">About Me</h2>
-      <p>{props.about.aboutme}</p>
+      <p>{props.about.aboutMe}</p>
     </section>
     <div className="exp-group about-location">
       <h3>Current Location:</h3>
@@ -17,7 +17,7 @@ function ExperienceHeader(props) {
       <p>{props.about.education}</p>
     </div>
     <div className="exp-group about-skills">
-      <h3>Tehnical Skills:</h3>
+      <h3>Technical Skills:</h3>
       <Skills skills={props.about.skills} keyname="exp_header"/>
     </div>
     </div>
