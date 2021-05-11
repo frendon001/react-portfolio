@@ -1,17 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import { projectSnapshots, experience } from './data/myPortfolioData';
+import { projectSnapshots, experience } from "./data/myPortfolioData";
 
 function renderProjectSnapshots(snapshots) {
-  return snapshots.map(snapshot => {
+  return snapshots.map((snapshot) => {
     return (
       <article key={`snapshot_${snapshot.name}`}>
         <Link to={`/project/${snapshot.id}`} className="image">
-          <img
-            src={`assets/images/snapshot_${snapshot.image}`}
-            alt={snapshot.image}
-          />
+          <div className="aspect-ratio-box">
+            <img src={`assets/images/${snapshot.image}`} alt={snapshot.image} />
+          </div>
         </Link>
         <h3 className="major">{snapshot.name}</h3>
         <p>{snapshot.info}</p>
@@ -24,7 +23,7 @@ function renderProjectSnapshots(snapshots) {
 }
 
 function ProjectSnapshots() {
-  let isAlt = experience.length % 2 !== 0 ? '' : ' alt';
+  let isAlt = experience.length % 2 !== 0 ? "" : " alt";
   return (
     <section id="project-snapshots" className={`wrapper${isAlt}`}>
       <div className="inner">
