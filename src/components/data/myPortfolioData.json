@@ -60,33 +60,6 @@
       ]
     },
     {
-      "id": "jons",
-      "company": "Jons Marketplace",
-      "image": "assets/images/jons_logo.png",
-      "useWhiteBg": false,
-      "title": "Front End Developer",
-      "date": "March 2018 – September 2018",
-      "description": "JONS International Marketplace is a family-owned grocery chain based in the greater Los Angeles.",
-      "descriptionItems": [
-        "Built and maintained a React with Redux based front-end user interface for an internal loss (theft) prevention web application to centralize theft cases at all Jons locations by taking a paper-based process and moving it fully online.",
-        "Created customized views based on role access provided though single sign on credentials",
-        "Styled the application by using Bootstrap and created forms using Redux-Form"
-      ],
-      "skills": [
-        "Node.js",
-        "React.js",
-        "Redux.js",
-        "Redux Thunk",
-        "MySQL",
-        "Javascript (ES6/ES7)",
-        "HTML",
-        "CSS",
-        "Boostrap",
-        "GIT",
-        "Java"
-      ]
-    },
-    {
       "id": "lrw_specialist",
       "company": "Lieberman Research Worldwide",
       "image": "assets/images/lrw_logo.png",
@@ -144,7 +117,7 @@
     {
       "id": "0",
       "name": "Snappy",
-      "image": "snappy.jpg",
+      "image": "snapshot_snappy.jpg",
       "info": "A web app that creates targeted email surveys with an authenticated account and credit based campaigns.",
       "skills": [
         "HTML",
@@ -164,7 +137,7 @@
     {
       "id": "1",
       "name": "Fruitdrop",
-      "image": "fruitdrop.jpg",
+      "image": "snapshot_fruitdrop.jpg",
       "info": "A site for communities to share home grown fruits and vegetables in order to prevent food waste.",
       "skills": [
         "HTML",
@@ -180,7 +153,7 @@
     {
       "id": "2",
       "name": "Bob's Banana Budget",
-      "image": "banana_budget.jpg",
+      "image": "snapshot_banana_budget.jpg",
       "info": "A complete Full-Stack Node application with a React Front End and unit tests for the REST API backend. Showcases a handy calculator to solve Bob's Banana Budget problem.",
       "skills": [
         "React.js",
@@ -199,19 +172,18 @@
     },
     {
       "id": "3",
-      "name": "Mongo News",
-      "image": "mongo_news.jpg",
-      "info": "A web app that pulls article headlines and links to save or review.",
+      "name": "Chatterbox",
+      "image": "chatterbox.png",
+      "info": "A chat application implemented with web-sockets",
       "skills": [
-        "HTML",
-        "CSS",
+        "React.js",
+        "Axios",
+        "WebSockets",
+        "Materialize CSS",
         "Javascript (ES6/ES7)",
-        "Bootstrap",
         "Node.js",
+        "Typescript",
         "Express.js",
-        "Cheerio.js",
-        "Handlebars.js",
-        "MongoDB",
         "Heroku",
         "GitHub"
       ]
@@ -219,14 +191,14 @@
     {
       "id": "4",
       "name": "Trivia Game",
-      "image": "trivia_game.jpg",
+      "image": "snapshot_trivia_game.jpg",
       "info": "A time based trivia game that focuses on content from Pixar movies.",
       "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     },
     {
       "id": "5",
       "name": "Hangman",
-      "image": "hangman.jpg",
+      "image": "snapshot_hangman.jpg",
       "info": "Here is my spin on Hangman. I have chosen a space theme for my version.",
       "skills": ["HTML", "CSS", "Javascript (ES6/ES7)", "Bootstrap", "GitHub"]
     }
@@ -292,21 +264,20 @@
       ]
     },
     {
-      "name": "Mongo News",
-      "image": "mongo_news.jpg",
-      "info": "A web app that pulls data article headlines from Techcrunch, Hackernews(YCombinator) and hackernoon. Articles can then be saved within the application and notes can be added to each saved article.",
-      "github": "https://github.com/frendon001/mongo-news",
-      "site": "https://obscure-dusk-73998.herokuapp.com/",
+      "name": "Chatterbox",
+      "image": "chatterbox.png",
+      "info": "A chat application implemented with web-sockets",
+      "github": "https://github.com/frendon001/chatterbox",
+      "site": "https://chatter-box-fr.herokuapp.com/chatterbox",
       "skills": [
-        "HTML",
-        "CSS",
+        "React.js",
+        "Axios",
+        "WebSockets",
+        "Materialize CSS",
         "Javascript (ES6/ES7)",
-        "Bootstrap",
         "Node.js",
+        "Typescript",
         "Express.js",
-        "Cheerio.js",
-        "Handlebars.js",
-        "MongoDB",
         "Heroku",
         "GitHub"
       ]
