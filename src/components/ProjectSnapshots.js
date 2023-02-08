@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import myPortfolioData from './data/myPortfolioData.json';
 
-import { projectSnapshots, experience } from "./data/myPortfolioData";
+const { experience, projectSnapshots } = myPortfolioData;
 
 function renderProjectSnapshots(snapshots) {
   return snapshots.map((snapshot) => {
