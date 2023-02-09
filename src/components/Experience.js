@@ -1,7 +1,9 @@
 import React from 'react';
 import ExperienceHeader from './ExperienceHeader';
 import Skills from './Skills';
-import { experience, about } from './data/myPortfolioData';
+import myPortfolioData from './data/myPortfolioData.json';
+
+const { experience, about } = myPortfolioData;
 
 const descItemsStyle = {
   listStyle: 'circle',

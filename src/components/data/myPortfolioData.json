@@ -209,7 +209,7 @@
       "image": "snappy.jpg",
       "info": "A web app that creates targeted email surveys. Quick and simple interface allows you to create and send surveys to any list people/customers. Sign up today and send out your first survey in under 10 minutes.",
       "github": "https://github.com/frendon001/snappy",
-      "site": "https://snappy-us.herokuapp.com/",
+      "site": "https://snappy-fr.onrender.com",
       "skills": [
         "HTML",
         "CSS",
@@ -246,8 +246,8 @@
       "name": "Bob's Banana Budget",
       "image": "banana_budget.jpg",
       "info": "A complete Full-Stack Node application with a React Front End and unit tests for the REST API backend. The main purpose of this application is to create a calculator that solves Bob's Budget dilemma as stated in the application.",
-      "github": "https://github.com/frendon001/banana-budgett",
-      "site": "https://banana-budget-fr.herokuapp.com/",
+      "github": "https://github.com/frendon001/banana-budget",
+      "site": "https://banana-budget-fr.onrender.com",
       "skills": [
         "React.js",
         "Formik",
@@ -268,7 +268,7 @@
       "image": "chatterbox.png",
       "info": "A chat application implemented with web-sockets",
       "github": "https://github.com/frendon001/chatterbox",
-      "site": "https://chatter-box-fr.herokuapp.com/chatterbox",
+      "site": "https://chatter-box-fr.onrender.com",
       "skills": [
         "React.js",
         "Axios",
